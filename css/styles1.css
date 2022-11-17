@@ -1,0 +1,19 @@
+body{
+    margin:10px;
+  }
+
+a[target="_blank"]{
+    color: orange;
+}
+
+a[href*="google"]{
+    color: orange;
+}
+
+a[target^="https"]{
+    color: orange;
+}
+
+a[target^="https"][href$=".com"]{
+    color: orange;
+}

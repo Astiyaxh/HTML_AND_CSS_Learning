@@ -1,0 +1,55 @@
+body {
+  margin: 10px;
+  background-color: azure;
+}
+
+/* article .first{
+    font-size: 140%;
+    font-style: italic;
+}
+
+article :first-child{
+    font-size: 140%;
+    font-style: italic;
+}
+
+article :first-of-type{
+    font-size: 140%;
+    font-style: italic;
+}
+
+article P:first-of-type{
+    font-size: 140%;
+    font-style: italic;
+}
+
+article p:last-of-type{
+    font-size: 140%;
+    font-weight: bold;
+} */
+
+article :last-child {
+  font-weight: bold;
+}
+
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+
+ul li:nth-child(even) {
+  color: midnightblue;
+}
+
+ul li:nth-child(3n) {
+  color: lime;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}

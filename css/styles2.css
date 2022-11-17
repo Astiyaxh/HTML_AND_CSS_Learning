@@ -1,0 +1,23 @@
+body{
+    margin:10px;
+}
+
+/* colorize all <p> tag in the section */
+#products > p{
+    color: orange;
+}
+
+/* colorize only first <p> tag in the section */
+#products > p{
+    color: orange;
+}
+
+/* colorize only first <p> tag after the section */
+#products + p{
+    color: orange;
+}
+
+/* colorize all <p> tag after the section */
+#products ~ p{
+    color: orange;
+}
