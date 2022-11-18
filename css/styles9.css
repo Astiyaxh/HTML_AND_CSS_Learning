@@ -1,0 +1,13 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background: dodgerblue;
+    border: 10px solid royalblue;
+    border: 10px dotted royalblue;
+    border: 10px dashed royalblue;
+    /* border-width: 10px 20px 10px 20px;
+    border-width: 10px 20px; */
+    border-radius: 500px;
+    /* Serch about shapes in css */
+    /* https://css-tricks.com/the-shapes-of-css/#top-of-site */
+}

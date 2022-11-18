@@ -1,0 +1,65 @@
+/* #container {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(dodgerblue, yellow);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, dodgerblue, yellow);
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, dodgerblue, yellow);
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow 30%);
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+
+.box6 {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(white, red);
+}
+
+.box7 {
+    width: 600px;
+    height: 200px;
+    background: radial-gradient(white, red);
+}
+
+.box8 {
+    width: 600px;
+    height: 200px;
+    background: radial-gradient(circle, white, red);
+}
+
+.box9 {
+    width: 600px;
+    height: 200px;
+    background: radial-gradient(circle at top left, white, red);
+}
+
+.box10 {
+    width: 600px;
+    height: 200px;
+    background: rgb(127, 16, 230);
+    background: linear-gradient(32deg, rgba(127, 16, 230, 1) 0%, rgba(244, 86, 38, 1) 49%, rgba(252, 254, 28, 1) 83%);
+}
