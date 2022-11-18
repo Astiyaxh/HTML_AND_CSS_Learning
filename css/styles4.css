@@ -1,0 +1,21 @@
+body {
+  margin: 10px;
+}
+
+/* .first-letter{
+    font-size: 140%;
+    font-weight: bold;
+} */
+
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  background-color: #fafa33;
+}
+
+p::after {
+  display: block;
+  content: "...";
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 10px;
+  background: #222831;
+}
+
+h1 {
+  color: dodgerblue;
+  /* !important --> Keyword to change Specificity */
+}
+
+.highlight {
+  color: deeppink;
+}
+
+#products {
+  color: green;
+}
+
+.highlight #products {
+  color: rgb(255, 30, 218);
+}
+
+.featured #products {
+  color: aqua;
+}
