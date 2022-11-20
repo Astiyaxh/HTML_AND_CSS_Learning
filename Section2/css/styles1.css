@@ -1,0 +1,17 @@
+p {
+    padding: 10px 20px;
+    /* vertical horizontal */
+    border: 10px solid gold;
+}
+
+p {
+    padding: 20px;
+    margin: 0;
+    /* This the right way to seprate elements */
+}
+
+p {
+    margin: 20px;
+    padding: 0;
+    /* It can cause margin collapse */
+}
