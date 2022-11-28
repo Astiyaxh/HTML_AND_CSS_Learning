@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+}
+
+/* body {
+    margin: 10px;
+    width: 300px;
+} */
+
+/* body {
+    margin: 10px;
+    width: 300px;
+    width here with % is 150px go to computed tap in inspect element
+} */
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-top: 3px solid orangered;
+} */
+
+/* 50% of the width of the parent */
+/* the parent here is body */
+/* .box {
+    
+    width: 50%;
+    height: 100%;
+    background-color: gold;
+    border-top: 3px solid orangered;
+    overflow: auto;
+} */
+
+/* .box {
+    width: 50vw;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orangered;
+    overflow: auto;
+} */
+
+
+/* 10 x font size of the current element */
+/* .box {
+    font-size: 20px;
+    width: 10em;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orangered;
+} */
+
+
+/* 10 x font size of the root element */
+.box {
+    width: 15rem;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orangered;
+}
+
+
+/* 
+   em = relative to parent element fontsize
+   rem = relative to root fontsize of html 
+*/

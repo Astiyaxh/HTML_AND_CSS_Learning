@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
 }
 
@@ -10,11 +8,14 @@ body {
     justify-content: center;
 }
 
-.box::before {
+.box::after {
+    content: "Hello";
+}
+
+.Sbox::after {
     content: "Hello";
     color: aliceblue;
     /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.689); */
-    back
 }
 
 .box {
@@ -25,7 +26,13 @@ body {
     background-color: dodgerblue;
     /* padding: 20px;
     border: 10px solid orange; */
-    box-shadow: 0 0 1rem 0 rgba(1, 255, 251, 0.689);
-    border-radius: 10%;
+}
 
+.Sbox {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    /* padding: 20px;
+    border: 10px solid orange; */
+    display: inline-block;
 }
