@@ -6,16 +6,26 @@
 
 body {
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .box::before {
     content: "Hello";
+    color: aliceblue;
+    /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.689); */
+    back
 }
 
 .box {
+    display: flex;
+    justify-content: center;
     width: 100px;
     height: 100px;
-    background-color: gold;
+    background-color: dodgerblue;
     /* padding: 20px;
     border: 10px solid orange; */
+    box-shadow: 0 0 1rem 0 rgba(1, 255, 251, 0.689);
+    border-radius: 10%;
+
 }
