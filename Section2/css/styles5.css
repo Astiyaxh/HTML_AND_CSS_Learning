@@ -3,6 +3,7 @@ body {
     height: 200vh;
 }
 
+
 .boxes {
     border: 3px solid lightgray;
     position: relative;
@@ -20,12 +21,16 @@ body {
 
 .box-two {
     background: tomato;
-    position: fixed;
+    position: relative;
+    left: 4rem;
+    bottom: 4rem;
+    z-index: -1;
+    /* position: fixed;
     top: 0;
     left: 2rem;
     right: 2rem;
     width: auto;
-    z-index: 999999;
+    z-index: 999999; */
 }
 
 .box-three {
