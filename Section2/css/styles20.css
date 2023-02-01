@@ -1,0 +1,49 @@
+.bg-eclipse
+{
+background:url('../images/css-sprite-combined.png') 0px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
+.bg-parabolic-dishes
+{
+background:url('../images/css-sprite-combined.png') -128px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
+.bg-planet-earth
+{
+background:url('../images/css-sprite-combined.png') -256px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
+.bg-rocket-ship
+{
+background:url('../images/css-sprite-combined.png') -384px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
+.bg-rocketship128px
+{
+background:url('../images/css-sprite-combined.png') -512px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
+.bg-satellite
+{
+background:url('../images/css-sprite-combined.png') -640px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
+.bg-ufo
+{
+background:url('../images/css-sprite-combined.png') -768px -0px;
+width:128px;height:128px;
+display:inline-block;
+}
+
