@@ -1,0 +1,47 @@
+:root {
+    --bg-abstract-timekeeper:   url(../images/abstract-timekeeper.svg);
+    --bg-bermuda-circle:        url(../images/bermuda-circle.svg);
+    --bg-bermuda-diamond:       url(../images/bermuda-diamond.svg);
+    --bg-bullseye-gradient:     url(../images/bullseye-gradient.svg);
+    --bg-endless-constellation: url(../images/endless-constellation.svg);
+    --bg-protruding-squares:    url(../images/protruding-squares.svg);
+    --bg-spectrum-gradient:     url(../images/spectrum-gradient.svg);
+    --bg-subtle-prism:          url(../images/subtle-prism.svg);
+    --bg-varying-stripes:       url(../images/varying-stripes.svg);
+
+}
+
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: var(--bg-abstract-timekeeper);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.anonymous {
+    width: 200px;
+}
+
+.server {
+    width: 200px;
+}

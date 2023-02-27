@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="../css/style33.css" />
+  </head>
+  <body>
+    <form>
+      <input
+        autocomplete="off"
+        list="countries"
+        placeholder="Select your country"
+        role="combobox"
+        type="text"
+      />
+      <datalist id="countries" role="listbox">
+        <option data-value="1">Australia</option>
+        <option data-value="2">Canada</option>
+        <option data-value="3">Iran</option>
+        <option data-value="4">United States</option>
+        <option data-value="5">Italia</option>
+      </datalist>
+    </form>
+
+    <script>
+      (() => {
+        const form = document.getElementById("autoform");
+
+        form.addEventListener("submit", (e) => {
+          e.preventDefault();
+
+          console.clear();
+          console.log("Submit disabled. Data:");
+
+          const data = new FormData(form);
+
+          for (let nv of data.entries()) {
+            console.log(`${nv[0]}: ${nv[1]}`);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
