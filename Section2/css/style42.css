@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+    overflow: hidden;
+}
+
+.box:hover {
+    transform: rotate(-15deg);
+    transform: scale(1.5);
+    transform: skew(15deg);
+    transform: rotate(45deg) translateX(50px);
+    transform: translateX(50px) rotate(45deg);
+}
