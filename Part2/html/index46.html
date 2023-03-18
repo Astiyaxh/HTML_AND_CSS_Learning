@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../css/style46.css" />
+  </head>
+
+  <body>
+    <div
+      class="box gold animate__animated animate__bounce"
+      onmouseover="addPop()"
+      onmouseleave="removePop()"
+    >
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box dodgerblue animate__animated animate__flash">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box crimson animate__animated animate__pulse">
+      <div>Astiyaxh</div>
+    </div>
+    <div
+      class="box chartreuse coral aqua animate__animated animate__rubberBand"
+    >
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box deeppink animate__animated animate__shakeX">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box limegreen animate__animated animate__shakeY">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box cornflowerblue animate__animated animate__headShake">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box darkviolet animate__animated animate__swing">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box orangered animate__animated animate__tada">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box tomato animate__animated animate__wobble">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box yellowgreen animate__animated animate__jello">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box fuchsia animate__animated animate__heartBeat">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box darkorange animate__animated animate__backInDown">
+      <div>Astiyaxh</div>
+    </div>
+    <div class="box mediumspringgreen animate__animated animate__flip">
+      <div>Astiyaxh</div>
+    </div>
+
+    <script>
+      var box = document.getElementsByClassName("box")[0];
+      console.log(box);
+      function addPop() {
+          box.classList.add("animation-pop");
+      }
+      function removePop() {
+          box.classList.remove("animation-pop")
+      }
+    </script>
+    <!-- <script src="../js/script46.js"></script> -->
+  </body>
+</html>
