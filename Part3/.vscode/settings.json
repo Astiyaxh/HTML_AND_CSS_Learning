@@ -1,0 +1,10 @@
+{
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "yellow",
+        "highlight": "white"
+      }
+    }
+  }
+}
