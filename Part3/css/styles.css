@@ -14,12 +14,12 @@ html {
 }
 
 body {
+    background: #d4d4d4;
+    color: var(--color-body);
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     /* 1.5 x of current size*/
     line-height: 1.5;
-    color: var(--color-body);
-    background: #0b0b0b;
 }
 
 h1, h2, h3 {
@@ -72,9 +72,9 @@ a {
 
 .link-arrow {
     color: var(--color-accent);
-    text-transform: uppercase;
     font-size: 2rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .link-arrow::after {
@@ -125,5 +125,33 @@ a {
 
     .badge--small {
         font-size: 1.2rem;
+    }
+}
+
+/* Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick {
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
+}
+
+.list--tick .list__item {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
     }
 }
