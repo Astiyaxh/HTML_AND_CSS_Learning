@@ -19,6 +19,7 @@ body {
     /* 1.5 x of current size*/
     line-height: 1.5;
     color: var(--color-body);
+    background: #0b0b0b;
 }
 
 h1, h2, h3 {
@@ -89,5 +90,40 @@ a {
 @media screen and (min-width: 1024px) {
     .link-arrow {
         font-size: 1.5rem;
+    }
+}
+
+/* Badges */
+
+.badge {
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem 2rem;
+    /* prevent badge text going to second line*/
+    white-space: nowrap;
+}
+
+.badge--primary {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.badge--secondary {
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.badge--small {
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .badge {
+        font-size: 1.5rem;
+    }
+
+    .badge--small {
+        font-size: 1.2rem;
     }
 }
